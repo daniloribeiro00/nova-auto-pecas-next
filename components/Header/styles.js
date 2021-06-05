@@ -11,6 +11,7 @@ export const Container = styled.header`
 
         img {
             height: 10rem;
+            cursor: pointer;
         }
 
     }
@@ -31,7 +32,7 @@ export const Container = styled.header`
 `;
 
 export const Buttons = styled.div`
-    background-color: #eee;
+    background-color: #fff;
     height: 3rem;
     width: 90%;
     max-width: 30rem;
@@ -43,10 +44,18 @@ export const Buttons = styled.div`
     justify-content: space-evenly;
 
     button {
+        background-color: #fff;
         border: none;
+        border-radius: 0.8rem;
         color: #212121;
         font-size: 1rem;
         cursor: pointer;
+        transition: 0.2s;
+        padding: 0.6rem 2rem;
+    }
+
+    button:hover {
+        filter: brightness(85%);
     }
 
     @media (min-width: 700px) {

@@ -20,6 +20,23 @@ export const Container = styled.header`
         font-size: 0.7rem;
         margin: 2rem;
     }
+
+    a {
+        color: #fff;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    button {
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    button:hover {
+        text-decoration: underline;
+    }
 `;
 
 export const Buttons = styled.div`

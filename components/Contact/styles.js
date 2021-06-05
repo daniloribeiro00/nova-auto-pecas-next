@@ -25,6 +25,7 @@ export const Container = styled.div`
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
+                text-decoration: underline;
 
                 img {
                     margin-right: 0.8rem;
@@ -50,12 +51,9 @@ export const Container = styled.div`
         .content {
             max-width: 900px;
             margin: 0 4rem;
-
             p {
                 margin: 2rem 0 0 0;
             }
-
         }
-
     }
 `;

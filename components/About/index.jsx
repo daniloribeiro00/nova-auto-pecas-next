@@ -9,8 +9,7 @@ export const About = () => {
                 <p>Fundada em Dezembro de 2015, a Nova Auto Peças surgiu com o objetivo de proporcionar as melhores peças para seu veículo com as melhores condições da região.</p>        
                 <p>Com uma equipe alegre e qualificada, estamos sempre prontos para atendê-lo da melhor maneira possível.</p>        
                 <p>Venha conhecer!</p>  
-            </div>
-                  
+            </div>       
         </Container>
     )
 }
